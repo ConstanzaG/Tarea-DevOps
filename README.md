@@ -18,3 +18,10 @@ python manage.py runserver
 ```
 pytest
 ```
+
+## Docker-compose
+
+- docker-compose build
+- docker-compose up -d
+
+http://IP_Contenedor:3005
