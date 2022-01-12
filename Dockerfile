@@ -15,10 +15,7 @@ RUN pip install -r requirements.txt
 COPY . $venv/ 
 
 EXPOSE 3000
+
 #RUN python manage.py migrate
 
-<<<<<<< HEAD
 #CMD ["python3", "manage.py", "runserver", "0:3005"]
-=======
-CMD ["python3", "manage.py", "runserver", "0:3005"]
->>>>>>> cd01ee6d3a52450198fad0cd52554b915ee7dd8d
