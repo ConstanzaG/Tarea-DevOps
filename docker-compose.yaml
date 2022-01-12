@@ -1,9 +1,9 @@
+version: "3"
 
-
-
-
-
-
-
-
-
+services:
+  web:
+    container_name: Tarea-DevOps
+    build: .
+    command: python manage.py runserver 0.0.0.0:3005
+    ports:
+      - '3005:3000'
