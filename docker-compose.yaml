@@ -6,4 +6,4 @@ services:
     build: .
     command: python manage.py runserver 0.0.0.0:3005
     ports:
-      - '3005:3000'
+      - '3005:80'
